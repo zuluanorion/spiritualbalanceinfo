@@ -147,3 +147,27 @@ ul.benefits li{margin-bottom:8px;break-inside:avoid}
 .visit dt{font-family:var(--caps);letter-spacing:.12em;font-size:14px;color:var(--gold);margin-top:18px}
 .visit dd{margin:4px 0 0}
 .books.shelf{grid-template-columns:repeat(auto-fill,minmax(180px,1fr))}
+.ba{background:radial-gradient(ellipse at 50% 45%,#3A2C66 0%,#1C133D 70%);color:#EDE7F5;text-align:center;padding:70px 0 60px}
+.ba h2{color:#F1E3BE}
+.ba picture img{width:100%;max-width:1200px;margin:0 auto;-webkit-mask-image:radial-gradient(ellipse 60% 60% at 50% 50%,#000 70%,transparent 100%);mask-image:radial-gradient(ellipse 60% 60% at 50% 50%,#000 70%,transparent 100%)}
+.ba .labels{display:grid;grid-template-columns:1fr 1fr;max-width:1000px;margin:6px auto 0;gap:30px}
+.ba .labels b{display:block;font-family:var(--caps);font-weight:500;letter-spacing:.2em;color:var(--gold2);font-size:15px}
+.ba .labels span{font-style:italic;color:#D9CDEA;font-size:19px}
+@media (max-width:760px){.ba .labels{gap:12px;margin-top:10px}.ba .labels span{font-size:16px}}
+.ba .mlabel{display:none;font-family:var(--caps);letter-spacing:.2em;color:var(--gold2);font-size:14px;margin:6px 0}
+.hero .sig.logo{width:min(380px,74vw);margin:-20px auto 18px;filter:drop-shadow(0 0 22px rgba(180,150,240,.25));opacity:1}
+
+.honors{background:linear-gradient(180deg,#1C133D 0%,#241A48 100%);color:#EDE7F5;padding:56px 0 64px;border-top:1px solid rgba(200,164,92,.35);border-bottom:1px solid rgba(200,164,92,.35)}
+.honors h2{color:#F1E3BE;text-align:center;margin-bottom:8px}
+.honors .eyebrow{text-align:center;color:var(--gold2)}
+.honors .sub{text-align:center;color:#D9CDEA;font-style:italic;margin:0 auto 34px;max-width:720px}
+.honors .row{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.honors figure{margin:0;text-align:center}
+.honors img{width:100%;aspect-ratio:3/4;object-fit:cover;border:1px solid rgba(200,164,92,.55);box-shadow:0 18px 40px -18px rgba(0,0,0,.7);transition:transform .3s}
+.honors img:hover{transform:translateY(-4px)}
+.honors figcaption{margin-top:12px;font-style:normal}
+.honors figcaption b{display:block;font-family:var(--caps);font-weight:500;letter-spacing:.1em;color:var(--gold2);font-size:15px}
+.honors figcaption span{display:block;color:#D9CDEA;font-size:16px;line-height:1.4;margin-top:4px}
+.honors .stats{margin-top:40px}
+@media (max-width:900px){.honors .row{grid-template-columns:1fr 1fr}}
+

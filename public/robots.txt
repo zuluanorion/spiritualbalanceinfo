@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://spiritualbalanceinfo.com/sitemap.xml
+Sitemap: https://www.spiritualbalanceinfo.com/sitemap.xml

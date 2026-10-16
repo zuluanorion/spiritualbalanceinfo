@@ -171,3 +171,5 @@ ul.benefits li{margin-bottom:8px;break-inside:avoid}
 .honors .stats{margin-top:40px}
 @media (max-width:900px){.honors .row{grid-template-columns:1fr 1fr}}
 
+/* keep the menu on one line under the name on wide screens */
+@media(min-width:861px){header.site .wrap{max-width:1260px}nav.main{gap:4px 14px}nav.main a{font-size:12px;letter-spacing:.1em}}

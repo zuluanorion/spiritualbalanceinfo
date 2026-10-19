@@ -173,3 +173,53 @@ ul.benefits li{margin-bottom:8px;break-inside:avoid}
 
 /* keep the menu on one line under the name on wide screens */
 @media(min-width:861px){header.site .wrap{max-width:1260px}nav.main{gap:4px 14px}nav.main a{font-size:12px;letter-spacing:.1em}}
+/* certifications under the recognition numbers */
+.honors .creds{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 12px;margin:30px 0 0}
+.honors .creds span{border:1px solid rgba(200,164,92,.55);border-radius:999px;padding:7px 16px;font-family:var(--caps);font-size:12px;letter-spacing:.12em;color:#E9D5A6;background:rgba(255,255,255,.03)}
+/* colour meditation plates of the Flame Codex (used instead of the traceable sigils) */
+.khero .kplate-hero{width:min(300px,64vw);height:auto;margin:-10px auto 14px;mix-blend-mode:screen;-webkit-mask-image:radial-gradient(circle,#000 58%,transparent 72%);mask-image:radial-gradient(circle,#000 58%,transparent 72%)}
+img.pglow{height:auto;mix-blend-mode:screen;-webkit-mask-image:radial-gradient(circle,#000 56%,transparent 71%);mask-image:radial-gradient(circle,#000 56%,transparent 71%)}
+img.pmed{height:auto;aspect-ratio:1;object-fit:cover;border-radius:50%;background:#000;box-shadow:0 0 0 1px rgba(200,164,92,.5),0 0 34px -8px rgba(200,164,92,.55)}
+.pillar img.pglow{width:170px;filter:none;margin:-8px auto 6px}
+/* the Amazon link under a book */
+.book .buy{display:inline-block;margin-top:8px;font-family:var(--caps);font-size:12px;letter-spacing:.14em;color:var(--violet);text-decoration:none;border-bottom:1px solid rgba(74,59,120,.35);padding-bottom:1px}
+.book .buy:hover{color:var(--gold);border-color:var(--gold)}
+/* ------------------------------------------------------------------ the Ayurveda section */
+nav.asub{background:var(--paper2);border-bottom:1px solid var(--line)}
+nav.asub .wrap{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 34px;padding-top:14px;padding-bottom:14px}
+nav.asub a{font-family:var(--caps);font-size:13px;letter-spacing:.14em;color:var(--violet);text-decoration:none;padding:6px 0;border-bottom:1px solid transparent}
+nav.asub a.on,nav.asub a:hover{color:var(--gold);border-bottom-color:var(--gold)}
+@media(max-width:600px){nav.asub .wrap{gap:2px 18px}nav.asub a{font-size:12px;letter-spacing:.08em}}
+table.ayt{width:100%;border-collapse:collapse;margin:26px 0;font-size:18px;line-height:1.45}
+table.ayt th{font-family:var(--caps);font-weight:500;font-size:13px;letter-spacing:.1em;color:var(--violet);text-align:left;padding:12px 14px;border-bottom:2px solid var(--gold2);vertical-align:bottom}
+table.ayt td{padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+table.ayt td:first-child{font-weight:600}
+section.dark table.ayt th{color:#E9D5A6}
+section.dark table.ayt td{border-bottom-color:rgba(255,255,255,.14)}
+@media(max-width:700px){table.ayt,table.ayt tbody{display:block}table.ayt{font-size:16px}table.ayt tr:first-child{display:none}table.ayt tr{display:block;padding:14px 0;border-bottom:1px solid var(--line)}table.ayt td{display:block;padding:3px 0;border:0}table.ayt td:first-child{font-size:18px;margin-bottom:4px}table.ayt td[data-label]:not([data-label=""]):not(:first-child)::before{content:attr(data-label) " · ";font-family:var(--caps);font-size:11px;letter-spacing:.1em;color:var(--gold)}section.dark table.ayt tr{border-bottom-color:rgba(255,255,255,.14)}}
+details.faq{border-bottom:1px solid var(--line);padding:16px 0}
+details.faq:first-of-type{border-top:1px solid var(--line)}
+details.faq summary{cursor:pointer;list-style:none;position:relative;padding-right:34px;font-size:20px;font-weight:600;color:var(--violet)}
+details.faq summary::-webkit-details-marker{display:none}
+details.faq summary::after{content:'+';position:absolute;right:6px;top:-3px;font-size:26px;font-weight:400;color:var(--gold)}
+details.faq[open] summary::after{content:'−'}
+details.faq p{margin:12px 0 0}
+section.dark details.faq{border-color:rgba(255,255,255,.14)}
+section.dark details.faq summary{color:#F1E3BE}
+.ayben ul.benefits{columns:1;padding-left:20px}
+.ayben .grid2{gap:10px 60px;margin-top:20px;align-items:start}
+/* meditation seen in the brain (before / after), inside the before-and-after band */
+.ba .bah3{margin:54px 0 18px;color:#F1E3BE}
+.ba .brain{display:grid;grid-template-columns:1fr 1fr;gap:22px;max-width:980px;margin:0 auto}
+.ba .brain figure{margin:0}
+.ba .brain img{width:100%;height:auto;border-radius:3px;background:#fff}
+.ba .brain figcaption{text-align:center;margin-top:12px}
+.ba .brain figcaption b{display:block;font-family:var(--caps);font-size:12px;letter-spacing:.2em;color:var(--gold2)}
+.ba .brain figcaption span{display:block;font-size:17px;color:#D9CDEA;margin-top:4px}
+@media(max-width:600px){.ba .brain{grid-template-columns:1fr}}
+/* the real exam images on the evaluations page */
+.exams{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:30px;align-items:start}
+.exams figure{margin:0}
+.exams img{width:100%;height:auto;background:#fff;border:1px solid var(--line);border-radius:3px}
+.exams figcaption{font-size:17px;color:var(--muted);margin-top:10px;line-height:1.5}
+@media(max-width:760px){.exams{grid-template-columns:1fr}}
